@@ -2,6 +2,8 @@ import mysql from "mysql";
 import cors from "cors";
 import express from "express";
 import cookie from "cookie-parser"
+import path from "path"
+const __dirname = path.resolve();
 
 const app = express();
 app.use(cors());
